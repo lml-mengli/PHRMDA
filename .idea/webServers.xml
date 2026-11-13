@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="7271c0a8-6a95-4c2a-a714-45914cda945f" name="PHRMDA">
+        <fileTransfer rootFolder="/user_data2/limengli/GIMMDA_melt" accessType="SFTP" host="hk.wei-group.net" port="20023" sshConfigId="c4722731-680c-442d-8b1b-8beae488b2dc" sshConfig="limengli@hk.wei-group.net:20023 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="64f41adb-8c9e-4638-8a40-cfe3d856ccd8" name="PHRMDA-4090">
+        <fileTransfer rootFolder="/workspace/limengli/GIMMDA_melt" accessType="SFTP" host="hk.wei-group.net" port="20022" sshConfigId="d1a623c7-6287-48c4-be67-81f1088b6ceb" sshConfig="limengli@hk.wei-group.net:20022 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
